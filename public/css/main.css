@@ -112,7 +112,7 @@ header nav ul li a {
 #image-principal {
   height: 300px;
   padding-top: 1px;
-  background: #e8eced url('../images/marcelo.jpg') no-repeat center;
+  background: #e8eced url('../images/feira-tancredo-neves.jpg') no-repeat center;
 }
 
 #image-principal div h2 {
@@ -138,11 +138,11 @@ header nav ul li a {
   color: #fff;
 }
 
-#profissoes ul {
+#depoimentos ul {
   margin: 20px 0;
 }
 
-#profissoes ul li {
+#depoimentos ul li {
   width: 300px;
   padding-top: 140px;
   float: left;
@@ -150,16 +150,16 @@ header nav ul li a {
   text-align: center;
 }
 
-#profissoes ul li.profissao-2 {
-  background: url('../images/features-icon-1.png') no-repeat top center;
+#depoimentos ul li.depoimento-2 {
+  background: url('../images/maria.png') no-repeat top center;
 }
 
-#profissoes ul li.profissao-1 {
-  background: url('../images/features-icon-2.png') no-repeat top center;
+#depoimentos ul li.depoimento-1 {
+  background: url('../images/francisco.png') no-repeat top center;
 }
 
-#profissoes ul li.profissao-3 {
-  background: url('../images/features-icon-3.png') no-repeat top center;
+#depoimentos ul li.depoimento-3 {
+  background: url('../images/renata.png') no-repeat top center;
 }
 
 #conteudo-principal {
@@ -171,6 +171,14 @@ header nav ul li a {
 #conteudo-principal h3 {
   display: block;
   margin: 0 auto 20px auto;
+  width: 400px;
+  border-bottom: 1px solid #02b8dd;
+  padding: 0 0 20px 0;
+}
+
+#titulo-h3 {
+  display: block;
+  margin: 20px auto 20px auto;
   width: 400px;
   border-bottom: 1px solid #02b8dd;
   padding: 0 0 20px 0;
@@ -313,4 +321,11 @@ tbody tr {
 td,
 th {
   text-align: left;
+}
+
+.feirantes {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 500px;
 }
