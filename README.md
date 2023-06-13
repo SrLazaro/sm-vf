@@ -14,13 +14,6 @@ $ npm start
 
 Sua aplicação deve executar na porta 5000 [localhost:5000](http://localhost:5000/).
 
-## Deploying to Heroku
+## Deploying to Railway
 
-```
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-or
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy to Heroku](https://railway.app/brand/logo-light.png)](https://railway.app/new)
